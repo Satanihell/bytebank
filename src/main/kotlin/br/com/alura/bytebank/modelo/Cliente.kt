@@ -5,6 +5,7 @@ import br.com.alura.bytebank.modelo.Autenticavel
 class Cliente(
     var nome: String,
     val cpf: String,
+    var endereco: Endereco = Endereco(),
     val senha: Int
 ): Autenticavel {
 

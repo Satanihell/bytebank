@@ -1,5 +1,9 @@
+package br.com.alura.bytebank.modelo
+
+import br.com.alura.bytebank.modelo.Autenticavel
+
 class Cliente(
-    val nome: String,
+    var nome: String,
     val cpf: String,
     val senha: Int
 ): Autenticavel {

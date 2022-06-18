@@ -1,3 +1,7 @@
+package br.com.alura.bytebank.modelo
+
+import br.com.alura.bytebank.modelo.Funcionario
+
 class Auxiliar (
     nome: String,
     cpf: String,
